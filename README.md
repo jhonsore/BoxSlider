@@ -1,0 +1,2 @@
+# BoxSlider
+Jquery Box slider
