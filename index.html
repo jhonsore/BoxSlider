@@ -10,7 +10,7 @@
 	function()
 	{
 		$("#slider-vertical").boxSlider({orientation:"vertical"});
-		$("#slider-horizontal").boxSlider({orientation:"horizontal", speed:3});
+		$("#slider-horizontal").boxSlider({orientation:"horizontal", speed:3, align:"center"});
 		
 	});
 
@@ -76,11 +76,11 @@ h1{ font-family:Arial, Helvetica, sans-serif; color:#674172; text-align:center;}
         </div>
         <br><br>
         <h1>Slider Horizontal</h1>
-    	<div class="box-slider" id="slider-horizontal">
-            <a href="#" class="box-slider-seta-left"><span></span></a>
+        <div class="box-slider" id="slider-horizontal">
+        	<a href="#" class="box-slider-seta-left"></a>
             <div class="box-slider-content">
-                <div class="box-slider-move">
-                    <div class="item first"><span></span></div>
+            	<div class="box-slider-move">
+                	<div class="item first"><span></span></div>
                     <div class="item"><span></span></div>
                     <div class="item"><span></span></div>
                     <div class="item"><span></span></div>
@@ -97,12 +97,13 @@ h1{ font-family:Arial, Helvetica, sans-serif; color:#674172; text-align:center;}
                     <div class="item"><span></span></div>
                     <div class="item last-item"><span></span></div>
                     <div class="clear"></div>
-                </div>                  
+                </div>
             </div>
             <a href="#" class="box-slider-seta-right"></a>
             <div class="clear"></div>
         </div>
     </div>
-    <br><br><br><br><br><br>
+    <div class="clear"></div>
+    <br><br><br><br><br><br><br><br>
 </body>
 </html>
